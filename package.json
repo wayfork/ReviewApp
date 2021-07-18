@@ -1,0 +1,21 @@
+{
+  "name": "reviewapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha ./test/test.js"
+  },
+  "dependencies": {
+    "debug": "^4.3.2",
+    "express": "~4.16.1",
+    "express-validator": "^6.12.0",
+    "mongodb": "~4.0.0",
+    "morgan": "~1.9.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2"
+  }
+}
